@@ -1,0 +1,104 @@
+body{
+	width:332px;
+	
+}
+.header{
+	font-size:18px;
+}
+.historyContainer{
+	width:332px;
+	height:290px;
+}
+.historyContent{
+	text-align: left;
+	height:290px;
+	overflow-y: scroll;
+	width:auto;
+}
+.historyEntry{
+	font-size:12px;
+	padding: 4px;
+	height: 50px;
+	background-color:#EAEAEA;	
+}
+.historyEntry.odd {
+    background-color: #F1F1F1;
+}
+.historyEntry:hover{
+	background-color:#ffffff;
+}
+.songTitle{
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+	font-weight:bold;
+	cursor: pointer;
+}
+.songTitle:hover{
+	text-decoration: underline;
+}
+.songArtist{
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+	padding-left: 14px;
+}
+.songAlbum{
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+	padding-left: 34px;
+	font-style: italic;
+}
+.songArt{
+	display: block;
+    width: 47px;
+    height: 47px;
+	padding-left: 8px;
+	padding-top: 1px;
+	float:left;
+}
+.thumbnail{
+	float: right;
+}
+.removeBtn{
+	padding-left: 3px;
+    padding-top: 16px;
+	width:16px;
+	height:16px;
+	cursor: pointer;
+}
+.info{
+	float:left;
+	width:220px;
+    padding-top: 2px;
+}
+.options{
+	float:left;
+	font-size:12px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	float: right;
+}
+.options a{
+	text-decoration: none;
+	color:#0097D4;
+}
+.onType{
+	font-style: normal;
+}
+.skipped{
+	color:rgba(255, 0, 0, 0.2);
+	position: relative;
+    top: -49px;
+	left: 26px;
+	width: 188px;
+	font-size:32px;
+    z-index: 1000;
+	transform: rotate(-8deg);
+	font-weight: 700;
+	pointer-events: none;
+}
+.hide{
+	display: none;
+}
